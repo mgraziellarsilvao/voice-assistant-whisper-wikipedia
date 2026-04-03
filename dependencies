@@ -1,0 +1,12 @@
+# 🚀 📤 COMO SUBIR PARA O :contentReference[oaicite:0]{index=0}
+
+```bash
+git init
+git add .
+git commit -m "Voice Assistant with Whisper + Wikipedia"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/voice-assistant-whisper-wikipedia.git
+git push -u origin main
+
+pip install -r requirements.txt
+python app.py
